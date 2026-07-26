@@ -1,28 +1,24 @@
-# ignore .idea and .vscode folders
+# .gitignore
+
+# ignore node_modules folder
+node_modules/
+
+# ignore build artifacts
+target/
+
+# ignore IDE files
 .idea/
 .vscode/
 
-# ignore build and dist folders
-build/
-dist/
+# ignore docker build files
+docker/
 
-# ignore .pyc and .pyo files
-*.pyc
-*.pyo
-
-# ignore .coverage and .coverage.xml files
-.coverage
-.coverage.xml
-
-# ignore .DS_Store files
-.DS_Store
-
-# ignore .env files
-.env
-
-# ignore __pycache__ folders
+# ignore python cache
 __pycache__/
 
-# ignore node_modules and yarn.lock files
-node_modules/
-yarn.lock
+# ignore pip install files
+*.egg-info/
+dist/
+
+# ignore IDE logs
+*.log
