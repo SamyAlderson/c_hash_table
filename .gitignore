@@ -1,15 +1,28 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
+# ignore .idea and .vscode folders
+.idea/
+.vscode/
+
+# ignore build and dist folders
 build/
-.venv/
+dist/
+
+# ignore .pyc and .pyo files
+*.pyc
+*.pyo
+
+# ignore .coverage and .coverage.xml files
+.coverage
+.coverage.xml
+
+# ignore .DS_Store files
+.DS_Store
+
+# ignore .env files
+.env
+
+# ignore __pycache__ folders
+__pycache__/
+
+# ignore node_modules and yarn.lock files
 node_modules/
-target/
-bin/
-obj/
-*.o
-*.so
-*.dylib/
+yarn.lock
