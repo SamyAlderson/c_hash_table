@@ -1,24 +1,17 @@
-# .gitignore
-
-# ignore node_modules folder
+# ignore git directory
+.gitignore
+# ignore node_modules
 node_modules/
-
-# ignore build artifacts
-target/
-
-# ignore IDE files
-.idea/
+# ignore .vscode
 .vscode/
+# ignore .env
+.env
+# ignore build folder
+build/
 
-# ignore docker build files
-docker/
-
-# ignore python cache
+# ignore coverage folder
+coverage/
+# ignore pyc files
+*.pyc
+# ignore __pycache__
 __pycache__/
-
-# ignore pip install files
-*.egg-info/
-dist/
-
-# ignore IDE logs
-*.log
