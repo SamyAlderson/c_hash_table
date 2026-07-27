@@ -1,17 +1,28 @@
-# ignore git directory
+# Ignore git directory
 .gitignore
-# ignore node_modules
+
+# Ignore node_modules
 node_modules/
-# ignore .vscode
-.vscode/
-# ignore .env
+
+# Ignore .env file
 .env
-# ignore build folder
+
+# Ignore build directory
 build/
 
-# ignore coverage folder
+# Ignore coverage directory
 coverage/
-# ignore pyc files
-*.pyc
-# ignore __pycache__
-__pycache__/
+
+# Ignore cache directory
+.cache/
+
+# Ignore IDE directories
+.idea/
+.vscode/
+
+# Ignore build artifacts
+dist/
+
+# Ignore coverage artifacts
+coverage.xml
+coverage.html
